@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      body{
+        background-color: rgb(8, 8, 77);
+        color:white;
+      }
+      .img{
+        align-items: center;
+        width: 100px;
+        height: 80px;
+        border-radius:50%;
+        border: 4px solid white;
+        margin-left: 30px;
+        
+      }  
+      .contact{
+       float:left;
+       width: 50%;
+       margin-top: 100px;
+      
+      }
+      .detail{
+        float:right;
+       width: 50%;
+    
+      }
+    
+      h1{
+        text-align: center;
+      }
+      table{
+        margin-top:100px;
+        font-size: larger;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Wix Madefor Display', sans-serif;
+        padding: 20px;
+      }
+      input.sub:hover{
+        color: red;
+      }
+      #name{
+        height: 30px;
+        border-radius: 15px;
+      }
+      #mail{
+        height: 30px;
+        border-radius: 15px; 
+      }
+      #msg{
+        
+        border-radius: 15px; 
+      }
+      .sub{
+        border-radius: 15px; 
+        height: 30px;
+        width: 70px;
+      }
+      
+    </style>
+</head>
+<body>
+  <h1>You can contact me on...</h1>
+    <div class="contact">
+      
+       <a href="https://www.instagram.com/qr/"> <img class="img"src="https://files.oyebesmartest.com/uploads/preview/rounded-instagram-logo-icon-png-hd9lquwhkbyj.png" alt="instagram"></a> 
+       <a href="https://github.com/Nishitha202"> <img class="img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGf99BDv1LI62JECSh7q4eoFqlaGkciriq5NEFh90R2XPy75zVR2lqLb2CGNgKtVgCu6k&usqp=CAU" alt="Github"></a> 
+       <a href="https://www.linkedin.com/in/nishitha-570bb022b/"><img  class="img" src="https://static.vecteezy.com/system/resources/previews/018/930/584/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="linkedin"></a>
+    </div>
+    <div class="detail">
+      <table>
+        <tr>
+        <td><label for="name">Name:</label></td>
+       <td><input type="text" id="name" placeholder="Name" size="40px" height="60px"></td>
+      </tr>
+        <tr>
+          <td><label for="mail">Email-address:</label></td>
+          <td><input type="text" id="mail" placeholder="Email" size="40px"height="60px" ></td>
+        </tr>
+        <tr>
+          <td><label for="msg">Message:</label></td>
+          <td><textarea cols="38" rows="6" id="msg"></textarea></td>
+        </tr>
+       </table>
+       <center> <input class="sub" type="submit" value="submit"></center>
+       
+    </div>
+</body>
+</html>
